@@ -39,13 +39,13 @@
 
   const onSubmit = (): Promise<void> => {
     console.log("## onSubmit ##  ", data)
-/*    return fetch("http://httpbin.org/post", {
+    return fetch("http://localhost:4000/posts", {
       method: "POST",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    }).then()*/
+    }).then()
   }
 </script>
